@@ -1,6 +1,6 @@
 # vaccination
 This repository contains results and codes for a project titled "Mapping full immunization coverage across 982 Ethiopian districts and bigger kebeles"
-# Five key areas
+# Ten key areas
 1. Data quality 
 2. First coverage
 3. Gravity model
