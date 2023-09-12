@@ -1,0 +1,11 @@
+PIPELINE pipeline_one {
+    USE DataForge;
+    RUN data_quality_module_{1.....12}.R;
+    USE VaxScope;
+    RUN coverage_estimation.R;
+}
+EXECUTE pipeline_one;
+
+pipeline_one ~ Nexus {
+    RUN SFMA_for_efficiency.R;
+}
